@@ -1,0 +1,88 @@
+body {
+  background: #ffffff;
+  font-family: "PT Sans", Helvetica, sans-serif;
+    min-width: 650px;
+}
+.frontpage-1-container {
+  /* background-image:url("../content/images/bazaarbg.jpg"); */
+  background-color: #3D65DA;
+  background-size: cover;
+}
+.frontpage-info {
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 3px 3px #3D65DA;
+  padding: 15px;
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+}
+.frontpage-button-container {
+  text-align: center;
+}
+.participate-btn,
+.participate-btn:focus,
+.participate-btn:focus,
+.participate-btn:active {
+  font-size: 3em;
+  text-align: center;
+  color: #3D65DA;
+  background: white;
+  border-radius: 18px;
+  outline: none;
+}
+.participate-btn:hover,
+.participate-btn:active:focus {
+  background: white;
+  color: #3D65DA;
+  border-radius: 24px;
+  outline: none;
+  box-shadow: 4px 4px 4px #000000;
+}
+.frontpage-2-container {
+  background-color: #3D65DA;
+}
+.frontpage-2-header {
+  color: white;
+  font-size: 75px;
+  font-weight: 700;
+  font-family: "PT Sans Caption", sans-serif;
+}
+.frontpage-2-button-header {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "PT Sans Caption", sans-serif;
+}
+.frontpage-2-infotext {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1em;
+}
+.frontpage-2-btn,
+.frontpage-2-btn:focus,
+.frontpage-2-btn:focus,
+.frontpage-2-btn:active {
+  font-size: 30px;
+  text-align: center;
+  color: #3D65DA;
+  background: white;
+  border-radius: 18px;
+  outline: none;
+  width: 100%;
+}
+.frontpage-2-btn:hover,
+.frontpage-2-btn:active:focus {
+  font-size: 30px;
+  text-align: center;
+  color: #3D65DA;
+  background: white;
+  border-radius: 18px;
+  outline: none;
+  box-shadow: 4px 4px 4px #000000;
+  width: 100%;
+}
+.frontpage-2-section {
+  padding-top: 2em;
+}

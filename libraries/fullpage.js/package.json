@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      "fullpage.js",
+      "/Users/aerugo/WebstormProjects/urbanburn"
+    ]
+  ],
+  "_from": "fullpage.js@*",
+  "_id": "fullpage.js@2.7.6",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/fullpage.js",
+  "_nodeVersion": "4.1.2",
+  "_npmUser": {
+    "email": "alvaro@alvarotrigo.com",
+    "name": "alvarotrigo"
+  },
+  "_npmVersion": "2.8.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "fullpage.js",
+    "raw": "fullpage.js",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fullpage.js/-/fullpage.js-2.7.6.tgz",
+  "_shasum": "6fc06b7f678373d725a1449ad78d2dacd23e13d6",
+  "_shrinkwrap": null,
+  "_spec": "fullpage.js",
+  "_where": "/Users/aerugo/WebstormProjects/urbanburn",
+  "authors": [
+    "Alvaro Trigo https://github.com/alvarotrigo"
+  ],
+  "bugs": {
+    "url": "https://github.com/alvarotrigo/fullPage.js/issues"
+  },
+  "dependencies": {
+    "jquery": ">=1.6.0"
+  },
+  "description": "Create  beautiful fullscreen scrolling websites",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6fc06b7f678373d725a1449ad78d2dacd23e13d6",
+    "tarball": "http://registry.npmjs.org/fullpage.js/-/fullpage.js-2.7.6.tgz"
+  },
+  "files": [
+    "README.md",
+    "jquery.fullPage.css",
+    "jquery.fullPage.js",
+    "jquery.fullPage.scss",
+    "package.json",
+    "vendors"
+  ],
+  "homepage": "https://github.com/alvarotrigo/fullPage.js",
+  "keywords": [
+    "jquery",
+    "one_page",
+    "scrolling",
+    "single_page",
+    "sliding"
+  ],
+  "license": "MIT",
+  "main": "jquery.fullPage.js",
+  "maintainers": [
+    {
+      "name": "alvarotrigo",
+      "email": "atrigol@gmail.com"
+    }
+  ],
+  "name": "fullpage.js",
+  "namespace": "$.fn.fullpage",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alvarotrigo/fullPage.js.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.7.6"
+}

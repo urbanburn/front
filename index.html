@@ -1,0 +1,88 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="description"
+              content="Urban Burn Stockholm - Bizzare Star Bazaar">
+        <title>Urban Burn Stockholm</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="libraries/fullpage.js/jquery.fullPage.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link href="libraries/fullpage.js/jquery.fullPage.css" rel="stylesheet" type="text/css">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:700' rel='stylesheet' type='text/css'>
+
+        <script>
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    anchors:['front', 'info']
+                });
+            });
+        </script>
+
+    </head>
+
+<body>
+
+<div id="fullpage">
+
+    <div class="section frontpage-1-container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <img src="content/images/bsblogo.png" class="img-responsive"/>
+                <div class="frontpage-info">
+                    <p>
+                        An event like nothing Stockholm has ever seen. For one weekend, we build a universe. Over 1000 co-creators. No passive consumers. We are the bazaar.
+                    </p>
+                </div>
+                <div class="frontpage-button-container"><a href="#info" type="button" class="btn btn-primary btn-lg participate-btn"><b>JOIN THE BAZAAR</b></a></div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+    <div class="section frontpage-2-container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="frontpage-2-header">JOIN THE BAZAAR</div>
+                <div class="frontpage-2-infotext">
+                    <p>
+                        An event like nothing Stockholm has ever seen… For one weekend, we build another universe together. No passive consumers, only active participants.
+                        Urban Burn is a participatory art event inspired by Burning Man. It’s an experiment in creative freedom & participation, conceived, built, experienced and returned to nothing by you! Urban Burn is a non-profit event.
+                        We are renting 20 000 sqm of open indoor space at Nobelberget in Sickla from March 11 to 13, where everyone is invited to create anything they like.
+                    </p>
+                </div>
+                <div class="row frontpage-2-section">
+                    <div class="col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn btn-primary btn-lg frontpage-2-btn"><b>TICKETS</b></button></div>
+                    <div class="col-md-9 col-sm-9 col-xs-9 frontpage-2-infotext">
+                        <div class="frontpage-2-button-header">Get a ticket</div>
+                        You’ll need a ticket to participate in Urban Burn, which costs XXX SEK. You can buy it here. The money gathered for tickets is used for event expenses and project grants. We’re all creating this event on a voluntary basis, nobody gets paid.                    </div>
+                </div>
+                <div class="row frontpage-2-section">
+                    <div class="col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn btn-primary btn-lg frontpage-2-btn"><b>CAMPS</b></button></div>
+                    <div class="col-md-9 col-sm-9 col-xs-9 frontpage-2-infotext">
+                        <div class="frontpage-2-button-header">Find or form a camp</div>
+                        <p>Do you want to be part of this? To get a feeling what’s up, we invite you to take a look at some of the projects already planned.
+                            You can either join one of those projects, or start your own. Some of us are supervising placement, so in case you start a project, it would be great to send a message to XXX and explain what kind of space and other requirements (such as electricity) you need.</p>
+                    </div>
+                </div>
+                <div class="row frontpage-2-section">
+                    <div class="col-md-3 col-sm-3 col-xs-3"><button type="button" class="btn btn-primary btn-lg frontpage-2-btn"><b>GRANTS</b></button></div>
+                    <div class="col-md-9 col-sm-9 col-xs-9 frontpage-2-infotext">
+                        <div class="frontpage-2-button-header">Project grants</div>
+                        Part of the money gathered for tickets is used to support you doing your project, in the form of a grant. Grants cover material expenses only. This page has all the information you need on how grants work, and how to apply for one.                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
