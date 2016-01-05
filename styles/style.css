@@ -86,3 +86,28 @@ body {
 .frontpage-2-section {
   padding-top: 2em;
 }
+.frontpage-2-principle {
+  padding-top: 1em;
+}
+.frontpage-principle-btn,
+.frontpage-principle-btn:focus,
+.frontpage-principle-btn:focus,
+.frontpage-principle-btn:active {
+  font-size: 14px;
+  text-align: center;
+  color: #3D65DA;
+  background: white;
+  border-radius: 18px;
+  outline: none;
+  width: 100%;
+}
+.frontpage-principle-btn:hover,
+.frontpage-principle-btn:active:focus {
+  font-size: 14px;
+  text-align: center;
+  color: #3D65DA;
+  background: white;
+  border-radius: 18px;
+  outline: none;
+  width: 100%;
+}
